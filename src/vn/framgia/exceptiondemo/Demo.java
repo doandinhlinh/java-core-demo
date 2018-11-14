@@ -4,6 +4,8 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import vn.framgia.genericdemo.GenericDemo;
+
 public class Demo {
 	private static final Logger myLogger =
 			Logger.getLogger("vn.framgia.exceptiondemo");

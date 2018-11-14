@@ -8,7 +8,7 @@ public class DaemonThread {
 			public void run() {
 				System.out.println("Normal Thread start");
 				try {
-					for (int i = 1; i <= 100; i++) {
+					for (int i = 1; i <= 5; i++) {
 						System.out.println("Normal Thread : " + i);
 						Thread.sleep(1000);
 					}
@@ -36,7 +36,7 @@ public class DaemonThread {
 		});
 		daemonThread.setDaemon(true);
 		daemonThread.start();
-//		normalThread.start();
+		normalThread.start();
 		try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
