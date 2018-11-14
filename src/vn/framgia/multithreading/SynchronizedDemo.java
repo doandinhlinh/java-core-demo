@@ -26,7 +26,7 @@ public class SynchronizedDemo extends Thread {
 }
 
 class ShareMemory {
-	public static synchronized void printData(String threadName) {
+	public static 	 void printData(String threadName) {
 		for (int i = 1; i <= 5; i++) {
 			System.out.println(threadName + ": " + i);
 		}
