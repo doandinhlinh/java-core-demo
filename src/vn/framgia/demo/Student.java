@@ -37,4 +37,11 @@ public class Student extends People{
 		this.teacher = teacher;
 	}
 
+	@Override
+	public String toString() {
+		return "Student [className=" + className + ", teacher=" + teacher + ", getClassName()=" + getClassName()
+				+ ", getTeacher()=" + getTeacher() + ", getName()=" + getName() + ", getClass()=" + getClass()
+				+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+	}
+	
 }

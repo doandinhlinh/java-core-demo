@@ -26,4 +26,11 @@ public abstract class People {
 		return super.clone();
 	}
 
+	@Override
+	public String toString() {
+		return "People [name=" + name + ", getName()=" + getName() + ", getClass()=" + getClass() + ", hashCode()="
+				+ hashCode() + ", toString()=" + super.toString() + "]";
+	}
+
+	
 }
